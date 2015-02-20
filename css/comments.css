@@ -1,0 +1,50 @@
+/* ---------- Post Comment ---------- */
+#post_comment{
+    margin-top:40px;
+    text-align: left;
+}
+#post_comment form{
+    text-align: right;
+}
+#post_comment input{
+    width:99%;
+}
+#post_comment input[type=submit]{
+    width:20%;
+}
+/* ---------- Show Comments ---------- */
+#list_comments{
+    text-align: left;
+}
+.comment{
+    margin: 30px 0px;
+}
+.comment_author{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.comment_date{
+    display: inline-block;
+}
+.username, .date{
+    color:#808080;
+    font-style: italic;
+}
+.comment_title{
+    font-weight: bold;
+    font-size: 15px;
+    margin-left:15px;
+    font-style: italic;
+}
+.comment_content{
+    font-style: italic;
+    font-size: 15px;
+    margin-left:15px;
+}
+.delete_comment{
+    text-align: right;
+}
+.delete_comment a{
+    color:tomato;
+    font-style: italic;
+}

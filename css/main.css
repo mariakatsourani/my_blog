@@ -1,0 +1,150 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    text-align: center;
+    width: 75%;
+    height: auto;
+    margin:0 auto;
+    font-family: 'Lusitana', serif;
+    font-size: 15px;
+}
+/* ---------- General ---------- */
+input{
+    width:95%;
+    height:25px;
+    padding: 5px;
+    margin: 3px 0px;
+}
+input[type="submit"]{
+    width:20%;
+}
+a:link, a:active, a:visited{
+    text-decoration: none;
+    color: #808080;
+}
+a:hover{
+    color: #000000;
+    text-decoration: underline;
+}
+.hr{
+    border-top: 1px dashed #909090;
+    height: 1px;
+}
+/* ---------- Header ---------- */
+header{
+    margin: 10px 0px 60px 0px;
+}
+header h1{
+    margin-bottom: 20px;
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 350%;
+    font-weight: 500;
+}
+header a:link, header a:visited, header a:hover, header a:active{
+    text-decoration: none;
+    color:#000000;
+}
+/* ---------- Main ---------- */
+main{
+
+}
+#main_content{
+    width: 63%;
+    display: inline-block;
+    padding: 0.5%;
+    float: left;
+}
+/* ---------- Posts ---------- */
+article{
+    margin-bottom: 20px;
+}
+.post_date{
+    font-size: 12px;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+.post_title{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.post_title a:hover{
+    text-decoration: none;
+}
+.post_content{
+    text-align: justify;
+    margin: 15px 0px;
+}
+.post_author{
+    font-style: italic;
+    font-size: 14px;
+}
+.total_comments{
+    font-style: italic;
+    font-size: 14px;
+    margin: 5px 0px 10px 0px;
+}
+.post_divider{
+    margin: 0 auto;
+    padding-bottom:  30px;
+    border-top: 1px dotted #A0A0A0 ;
+    height: 1px;
+    width:40%;
+}
+/* ---------- Pagination ---------- */
+#previous_page {
+    float:left;
+}
+#next_page{
+    float:right;
+}
+.current_page{
+    font-weight: bold;
+}
+/* ---------- Widgets ---------- */
+aside{
+    width: 29%;
+    padding: 0.5%;
+    display: inline-block;
+    float:right;
+    text-align: left;
+}
+.widget{
+    margin-bottom: 30px;
+    text-align: justify;
+}
+.widget_title{
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    font-family: 'Amatic SC', cursive;
+    font-size: 27px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+.widgets_content{
+
+}
+/* ---------- Login ---------- */
+#login input[type="submit"]{
+    width:100%;
+}
+/* ---------- Cetegories ---------- */
+#categories{
+    font-size: 16px;
+}
+ul {
+    list-style-type: lower-greek;
+    list-style-position: inside;
+}
+ul li{
+    margin: 5px 0px;
+}
+/* ---------- Footer ---------- */
+footer {
+    margin: 100px 0px 15px 0px;
+}
+/* ---------- Misc ---------- */
+.clear{
+    clear: both;
+}

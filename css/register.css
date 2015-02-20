@@ -1,0 +1,78 @@
+/* -------------- Manage Account -------------- */
+#account_settings {
+    width:50%;
+    display: inline-block;
+    float: left;
+}
+.manage{
+    text-align: left;
+}
+form.manage {
+    margin-bottom: 40px;
+
+}
+form.manage input[type=text]{
+
+}
+form.manage input[type=submit]{
+    width:55%;
+}
+#username.manage{
+
+}
+#password.manage{
+
+}
+#email_feed.manage input[type=checkbox]{
+    width:20%;
+}
+/* -------------- Manage Account -------------- */
+
+/* -------------- Register -------------- */
+#registration_wrapper {
+    text-align: left;
+}
+#registration_wrapper h3{
+    margin-bottom:  15px;
+}
+#registration{
+    text-align: left;
+    display: inline-block;
+    float : left;
+    width: 50%;
+}
+#registration h3{
+    margin-bottom: 10px;
+}
+#registration label{
+    font-style: italic;
+}
+#registration input{
+    width:95%;
+    margin: 5px 0px;
+    height:20px;
+}
+#registration input[type="submit"]{
+    height:30px;
+    width:52%;
+}
+#registration input[type="checkbox"]{
+    height:20px;
+    width:5%;
+    vertical-align: middle;
+}
+#checkbox{
+    vertical-align: middle;
+    padding-left: 5px;
+}
+/* -------------- Register -------------- */
+
+.errors{
+    text-align: right;
+    margin-top: 20px;
+    color: tomato;
+    font-weight: bold;
+    display: inline-block;
+    float : right;
+    width : 46%;
+}

@@ -1,0 +1,32 @@
+#new_post {
+ text-align: left;
+}
+#new_post input{
+    margin: 15px 0px;
+}
+#list_categories{
+
+}
+.categories{
+    vertical-align: top;
+    margin-right:1px;
+ }
+#new_post input[type=checkbox]{
+    margin: 0px 20px 0px 1px;
+    width:5%;
+    height: 20px;
+}
+.category{
+    width:auto;
+}
+textarea{
+    font-family: 'Lusitana', serif;
+    font-size: 15px;
+    margin: 15px 0px;
+    padding: 5px;
+    width:97%;
+    height:300px;
+}
+#new_post input[type=submit]{
+    width:20%;
+}
